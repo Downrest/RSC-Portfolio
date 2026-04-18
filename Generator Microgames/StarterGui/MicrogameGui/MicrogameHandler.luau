@@ -101,7 +101,7 @@ generatorRequest.OnClientEvent:Connect(function(
 		Intermission.StartOutro(hasWon)
     end
 
-    -- disable game gui (end of game)
+    -- disable game gui (end of all microgames)
     toggleGui(false)
 
     -- destroys game object to clear up memory
