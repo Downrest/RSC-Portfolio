@@ -309,7 +309,6 @@ local function setupPaintOnRenderStep(
         previousMouseLocation = mouseLocation
 
         updateDrawingAccuracy(collidedHitboxes, totalHitboxAmount, incorrectInkBlobs)
-        warn(drawingAccuracy)
     end)
 end
 
