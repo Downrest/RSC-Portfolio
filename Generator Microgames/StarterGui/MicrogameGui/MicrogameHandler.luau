@@ -50,6 +50,7 @@ local function gameOverCleanup()
     Timer.Stop(timerGen)
 end
 
+-- when the player triggers a generator (as seen by the server), start the microgames
 generatorRequest.OnClientEvent:Connect(function(
     generatorModel: Model,
     MICROGAME_AMOUNT: number,
